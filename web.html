@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Pattern Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="/Radiantcpy/dpdb-removebg-preview.png" alt="Dark Pattern Detector logo">
+        <h1 class="header-title">Dark Pattern Detector</h1>
+    </header>
+    
+
+    <div class="main-content">
+        
+        <section class="explainers">
+            <div class="explainer-card large">
+                <h4>How the app works</h4>
+                <p>Paste text (webpage copy, cookie banners, or form text) into the input area, then click "Analyze Elements". The app scans the text for manipulative language patterns, highlights suspicious phrases, and produces a short summary and pattern list.</p>
+            </div>
+            <div class="explainer-card small">
+                <h4>Reading the results</h4>
+                <p>Summary shows the main findings, the highlighted box displays detected phrases inline, and the patterns list explains each manipulative element found with a brief description and a confidence indicator.</p>
+            </div>
+        </section>
+
+        <main class="container">
+            <section class="analysis-section">
+                <div class="input-area">
+                    <textarea id="text-input" rows="15" placeholder="Paste website copy, cookie banners, or form text here..."></textarea>
+                    <div class="button-group">
+                        <button id="analyze-button" class="btn btn-primary">Analyze Elements</button>
+                        <button id="clear-button" class="btn btn-secondary">Reset</button>
+                    </div>
+                </div>
+                <div class="results-area">
+                    <div id="summary-container">
+                    </div>
+                    <div class="highlighted-text-container">
+                        <h3>The Content  Entered: </h3>
+                        <div id="highlighted-output" class="highlighted-text-box">
+                            <p class="placeholder"> <br><br></p><br>
+                        </div>
+                    </div>
+                    <h3>Manipulative Elements: </h3>
+                    <div id="patterns-container"></div><br>
+                </div>
+            </section>
+        </main>
+    </div>
+        <footer>
+             <ul class="social_icons">
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+             <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+               <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </ul><p>Team Radiant 2025||All Rights Reserved</p>
+       
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+    
+    <script src="script.js"></script>
+
+</html>
