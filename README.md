@@ -8,4 +8,5 @@ A front end only tool that can help identify manipulative text in websites. Buil
 **HTML5: Structure
 
 **CSS:Responsive designing using flexbox and css variables for theming.
+
 **Javascript: We use an array of objects where each pattern is defined with its own regex,score and explanation.
